@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160mdp"
+        android:background="@android:color/holo_blue_light"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_25mdp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/profile"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_18font_mdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18font_mdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16font_mdp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10mdp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:id="@+id/uploadYourGrage"
+            android:layout_height="@dimen/_40mdp"
+            android:layout_margin="@dimen/_5mdp"
+            android:clickable="true"
+            android:elevation="@dimen/_2mdp"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/_5mdp"
+            app:cardElevation="@dimen/_2mdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5mdp">
+
+                <ImageView
+                    android:id="@+id/icon1"
+                    android:layout_width="@dimen/_20mdp"
+                    android:layout_height="@dimen/_20mdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_cloud_upload_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5mdp"
+                    android:includeFontPadding="false"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/icon1"
+                    android:text="Upload Your Grages"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18font_mdp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40mdp"
+            android:layout_margin="@dimen/_5mdp"
+            android:clickable="true"
+            android:elevation="@dimen/_2mdp"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/_5mdp"
+            app:cardElevation="@dimen/_2mdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5mdp">
+
+                <ImageView
+                    android:id="@+id/icon2"
+                    android:layout_width="@dimen/_20mdp"
+                    android:layout_height="@dimen/_20mdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_cloud_upload_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5mdp"
+                    android:includeFontPadding="false"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/icon2"
+                    android:text="Terms and Conditions"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18font_mdp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40mdp"
+            android:layout_margin="@dimen/_5mdp"
+            android:clickable="true"
+            android:elevation="@dimen/_2mdp"
+            android:focusable="true"
+            app:cardCornerRadius="@dimen/_5mdp"
+            app:cardElevation="@dimen/_2mdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5mdp">
+
+                <ImageView
+                    android:id="@+id/icon3"
+                    android:layout_width="@dimen/_20mdp"
+                    android:layout_height="@dimen/_20mdp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_cloud_upload_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5mdp"
+                    android:includeFontPadding="false"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/icon3"
+                    android:text="Log Out"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18font_mdp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

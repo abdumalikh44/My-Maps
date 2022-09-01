@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "645404993065",
+    "firebase_url": "https://maps-ff98e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "maps-ff98e",
+    "storage_bucket": "maps-ff98e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645404993065:android:5d4680ca7476d9a16b9e38",
+        "android_client_info": {
+          "package_name": "com.example.googlemaps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645404993065-h8n4dj70reqtkppihjh4ju45mod985l6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP8UsD8SbgSA10PpVOLrhnsq092OSOELI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645404993065-h8n4dj70reqtkppihjh4ju45mod985l6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

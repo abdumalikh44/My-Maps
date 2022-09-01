@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AddLatlngFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10mdp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10mdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Latitude : "
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Latitude2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10mdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Longitude : "
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/Longitude2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="10dp"
+                android:text="Address"
+                android:textSize="@dimen/_12font_mdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Address"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@color/common_google_signin_btn_text_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="10dp"
+                android:text="Address Line 2"
+                android:textSize="@dimen/_12font_mdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/AddressTwo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@color/common_google_signin_btn_text_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="10dp"
+                android:text="Head Line"
+                android:textSize="@dimen/_12font_mdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/HeadLine"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@color/common_google_signin_btn_text_light" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10mdp"
+                android:layout_marginTop="10dp"
+                android:text="Description"
+                android:textSize="@dimen/_12font_mdp" />
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Description"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_120mdp"
+                android:layout_margin="@dimen/_10mdp"
+                android:background="@color/common_google_signin_btn_text_light" />
+
+            <Button
+                android:id="@+id/Submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_700"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
